@@ -50,7 +50,7 @@ def test_answerCallForFriendDifferentAreaCodeGoodTime_2():
 
 
 def test_answerCallForRelativeDifferentAreaCodeGoodTime():
-    result = screener.answerCall("R", False, "9:00")
+    result = screener.answerCall("R", False, "09:00")
     expected = True
     assert result == expected
 
